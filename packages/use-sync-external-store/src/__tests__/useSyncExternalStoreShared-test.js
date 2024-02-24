@@ -589,7 +589,7 @@ describe('Shared useSyncExternalStore behavior (shim and built-in)', () => {
         ReactDOM.flushSync(async () => root.render(<App />)),
       ).toThrow(
         'Maximum update depth exceeded. This can happen when a component repeatedly ' +
-          'calls setState inside componentWillUpdate or componentDidUpdate. React limits ' +
+          'calls setState in an effect or lifecycle method. React limits ' +
           'the number of nested updates to prevent infinite loops.',
       );
     }).toErrorDev(
