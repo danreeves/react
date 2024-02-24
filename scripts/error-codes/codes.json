@@ -184,7 +184,7 @@
   "182": "performWork was called recursively. This error is likely caused by a bug in React. Please file an issue.",
   "183": "Should have found an error boundary. This error is likely caused by a bug in React. Please file an issue.",
   "184": "No error for given unit of work. This error is likely caused by a bug in React. Please file an issue.",
-  "185": "Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.",
+  "185": "Maximum update depth exceeded. This can happen when a component repeatedly calls setState in an effect or lifecycle method. React limits the number of nested updates to prevent infinite loops.",
   "186": "Task updates can only be scheduled as a nested update or inside batchedUpdates.",
   "187": "flushSync was called from inside a lifecycle method. It cannot be called when React is already rendering.",
   "188": "Unable to find node on an unmounted component.",
